@@ -1,0 +1,156 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Algerian;
+}
+#title{
+    text-align: center;
+    background-color: #d8dbbd;
+    color:#2a3663
+}
+#container{
+    display:flex;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #d8dbbd;
+    height: 100vmin;
+    width:200vmin;
+    justify-content: space-around;
+}
+#game{
+    display:flex;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: wheat;
+    height: 80vmin;
+    width:80vmin;
+    margin:5vmin;
+    border-radius: 1vmin;
+}
+.box{
+    height: 25vmin;
+    width:25vmin;
+    margin: 0.83vmin;
+    background-color: #faf6e3;
+    color:#b59f78;
+    font-size: 15vmin;
+    border: none;
+    border-radius: 1vmin;
+}
+#reset{
+    color:#faf6e3;
+    background-color: #2a3663;
+    padding: 4rem;
+    font-size: 1.25rem;
+    border:none;
+    border-radius:1rem;
+}
+
+#Theme{
+    color:#faf6e3;
+    background-color: #2a3663;
+    padding: 4rem;
+    font-size: 1.25rem;
+    border:none;
+    border-radius:1rem;
+}
+
+#newgame{
+    color:#2a3663;
+    background-color:#b59f78;
+    padding: 1rem;
+    font-size: 1.25rem;
+    border:none;
+    border-radius:1rem;
+    margin:12vmin;
+}
+
+ #msg{
+    color:#faf6e3;
+    font-size: 10vmin;
+
+ }
+
+ .win{
+    height: 105vmin;
+    background-color: #2a3663;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    }
+ .hide{
+    display: none;
+ }
+
+ /* theme2 */
+
+ /* .title1{
+    text-align: center;
+    background-color: #F4E0AF;
+    color:#355F2E
+}
+.container1{
+    display:flex;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #F4E0AF;
+    height: 100vmin;
+    width:200vmin;
+    justify-content: space-around;
+}
+.game1{
+    display:flex;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #A8CD89;
+    height: 80vmin;
+    width:80vmin;
+    margin:5vmin;
+    border-radius: 1vmin;
+}
+.box1{
+    height: 25vmin;
+    width:25vmin;
+    margin: 0.83vmin;
+    background-color: #F9C0AB;
+    color:#A8CD89;
+    font-size: 15vmin;
+    border: none;
+    border-radius: 1vmin;
+}
+.reset1{
+    color:#F4E0AF;
+    background-color: #355F2E;
+    padding: 4rem;
+    font-size: 1.25rem;
+    border:none;
+    border-radius:1rem;
+}
+
+.newgame1{
+    color:#355F2E;
+    background-color:#F4E0AF;
+    padding: 1rem;
+    font-size: 1.25rem;
+    border:none;
+    border-radius:1rem;
+    margin:12vmin;
+}
+
+ .msg1{
+    color:#F9C0AB;
+    font-size: 10vmin;
+
+ }
+
+ .win1{
+    height: 105vmin;
+    background-color: #355F2E;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    } */
